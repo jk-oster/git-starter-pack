@@ -15,7 +15,7 @@
 - create new branch `git branch [branch name]`
 - merge specified branch into currently active branch `git merge [branch name]`
 
-## #Git Sharing & Updating
+### Git Sharing & Updating
 - upload current branch commits to the remote repository `git push`
 - download, fetch and merge any commits from the remote branch `git pull`
 
