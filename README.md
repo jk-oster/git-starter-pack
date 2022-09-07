@@ -1,6 +1,6 @@
 # git-starter-pack
 
-### Setup and initialize
+### Git Setup and initialize
 - initialize an existing directory as a Git repository `git init`
 - retrieve an entire repository from a hosted location via URL `git clone [url]`
 
@@ -19,8 +19,13 @@
 - upload current branch commits to the remote repository `git push`
 - download, fetch and merge any commits from the remote branch `git pull`
 
-### Work in progress & Temporary Commits
+### Git Work in progress & Temporary Commits
 - temporarily save changes without commiting them `git stash`
 - apply stashed changes to current branch `git stash pop`
+
+### Undo commits
+- undo specific commit `git revert [commit id]`
+- delete last commit / undo everything up until specified commit `git reset [commit id]`ä
+- show commit history and commit ids `git log`
 
 Full git cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
